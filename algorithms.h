@@ -200,9 +200,9 @@ int M_dis(int x1,int y1,int x2,int y2)
 {
     return abs(x1 - x2) + abs(y1 - y2);
 }
-double pi()
+long double pi()
 {
-	return 3.141592653589793;
+	return 3.1415926535897932384;
 }
 long int Num_round(double x)
 {
