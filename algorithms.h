@@ -299,6 +299,10 @@ int higher(char c)
         return c + ('a' + 'A');  
     return c;  
 }
+int split(string s,int a)
+{
+	return s[a-1]-48;
+}
 }
 namespace systems
 {
