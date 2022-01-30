@@ -10,7 +10,7 @@
 #include <conio.h>
 #include <vector>
 #define repeat(i,a,b) for(long long i=a;i<=b;i++)
-#define start using namespace IME;using namespace OM;using namespace var;using namespace type;using namespace times;using namespace math;using namespace str;using namespace std;int main()
+#define start using namespace IME;using namespace OM;using namespace var;using namespace type;using namespace times;using namespace maths;using namespace str;int main()
 namespace IME
 {
 	using std::cin;
