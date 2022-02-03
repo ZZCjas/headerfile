@@ -250,6 +250,15 @@ bool isPrime(int n)
     }
     return true;
 }
+long long int power(int a,int t)
+{
+	long long int tot=1;
+	for(register int i=1;i<=t;i++)
+	{
+		tot*=i;
+	}
+	return tot;
+}
 }
 namespace str
 {
