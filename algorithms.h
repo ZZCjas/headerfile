@@ -411,3 +411,32 @@ namespace  online_mode
 		}
 	}
 }
+namespace stacks
+{
+	string push(int s[],int*top,int*x,int a)
+	{
+		if(*top>=a)
+		{
+			return "Memory overflow";
+		}
+		else
+		{
+			*top++;
+			s[*top]=*x;
+			return "Success";
+		}
+	} 
+	string push(int s[],int*top,int*x)
+	{
+		if(*top==0)
+		{
+			return "Memory underflow";
+		}
+		else
+		{
+			*x=s[*top];
+			*top--;
+			return "Success";
+		}
+	} 
+}
